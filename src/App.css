@@ -1,0 +1,70 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.DateTimeChecher {
+  border-radius: 5px;
+  width: 400px;
+  height: auto;
+  border: 2px solid black;
+  margin: 0px auto;
+  margin-top: 180px;
+}
+
+.DateTimeChecher img {
+  width: 200px;
+  height: 100px;
+}
+
+.DateTimeChecher h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.inputForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+label {
+  display: inline-block;
+  min-width: 80px;
+}
+
+.btnAction {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.btnAction button {
+  height: 25px;
+  width: 100px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeTab {
+  background-color: red;
+  color: white;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 5px;
+}
+
+.inputBox input {
+  padding: 5px;
+}
